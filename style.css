@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'raleway', serif;
+}
+nav {
+	height: 60px;
+	line-height: 60px;
+	background-color: #ddd;
+	text-align: center;
+}
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+	min-width: 1200px;
+}
+.burger-icon {
+	display: block;
+	margin-left: auto;
+	padding: 0 30px;
+	border: none;
+	background: none;
+	line-height: 60px;
+	font-size: 30px;
+	cursor: pointer;
+}
+.nav-items {
+	display: none;
+}
